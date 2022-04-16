@@ -14,4 +14,9 @@ class Login : AppCompatActivity() {
         val intent = Intent(this, SignUp::class.java)
         startActivity(intent)
     }
+
+    fun menuPage(view: android.view.View) {
+        val intent = Intent(this, Menu::class.java)
+        startActivity(intent)
+    }
 }
