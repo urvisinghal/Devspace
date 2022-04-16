@@ -15,24 +15,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/screen2" />
-
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="323dp"
-        android:layout_height="120dp"
-        android:background="@drawable/round_button"
-        android:fontFamily="sans-serif-black"
-        android:text="Charge Up"
-        android:textSize="40sp"
-        android:textStyle="bold"
-        app:icon="@drawable/round_button"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/imageView12"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="@+id/imageView12"
-        app:layout_constraintTop_toTopOf="@+id/imageView12"
-        app:layout_constraintVertical_bias="0.2" />
+        app:srcCompat="@drawable/screen1" />
 
     <Button
         android:id="@+id/button2"
@@ -46,10 +29,10 @@
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView12"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button1"
-        app:layout_constraintVertical_bias="0.827" />
+        app:layout_constraintTop_toTopOf="@+id/imageView12"
+        app:layout_constraintVertical_bias="0.862" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
