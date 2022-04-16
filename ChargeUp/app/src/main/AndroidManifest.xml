@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ChargeUp">
         <activity
+            android:name=".Starbucks"
+            android:exported="false" />
+        <activity
+            android:name=".Subway"
+            android:exported="false" />
+        <activity
+            android:name=".Mcd"
+            android:exported="false" />
+        <activity
+            android:name=".Kfc"
+            android:exported="false" />
+        <activity
             android:name=".Menu"
             android:exported="false" />
         <activity
